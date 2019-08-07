@@ -1,0 +1,50 @@
+.height{
+    height: 80vh;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/netflix.jpg) center/cover no-repeat fixed;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+a{
+    background-color: #e50914;
+} */
+.txt{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.relate{
+    position: relative;
+    left: 50px;
+}
+.btn{
+    color: white;
+    position: relative;
+    left: 529px;
+    background: #e50914;
+    
+    
+}
+.content-head1 p{
+    font-size: 1.5rem;
+}
+.shift{
+    position: relative;
+    left: 535px;
+}
+.btn:hover{
+    opacity: 0.9; 
+}
+.top-head1{
+    height: 90px;
+    width: 100%;
+    text-align: center;
+}
