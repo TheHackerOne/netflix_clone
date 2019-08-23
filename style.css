@@ -13,10 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-/* 
-a{
-    background-color: #e50914;
-} */
+
 .txt{
     font-size: 4rem;
     font-weight: 600;
@@ -33,6 +30,13 @@ a{
     
     
 }
+.upper_bar{
+    padding: 34px;
+    background: #141414;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
 .content-head1 p{
     font-size: 1.5rem;
 }
@@ -47,4 +51,129 @@ a{
     height: 90px;
     width: 100%;
     text-align: center;
+}
+.one{
+    position: relative;
+    left: 90px;
+}
+.three{
+    position: relative;
+    right: 30px;
+}
+.bor-1{
+    border-bottom: 10px solid #e50914;
+    
+}
+.bor-2{
+    border-bottom: 10px solid #e50914;
+    display: none;
+}
+.bor-3{
+    border-bottom: 10px solid #e50914;
+    display: none;
+}
+
+/* TAB-1 */
+.img{
+    height: 400px;
+    width: auto;
+}
+.text-lg{
+    font-size: 1.7rem;
+}
+.tab_1_bg{
+    background: black;
+    width: 100vw;
+}
+.btn-lg{
+    position: relative;
+    left: 40px;
+}
+.img_re{
+    height: 170px;
+    width: auto;
+}
+.text-lg{
+    position: relative;
+    left: 169px;
+}
+.btn-tab-2{
+    position: relative;
+    left: 164px;
+}
+.tab_3_bg{
+    background: black;
+    width: 100vw;
+}
+.tab_2_bg{
+    background-color: black;
+    width: 100vw;
+}
+.head_bold{
+    color: white;
+    text-transform: uppercase;
+}
+.text_col{
+    color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+.table tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.text_col tr:nth-child(odd){
+    background:#222;
+}
+
+.heading_1{
+    position: relative;
+    left: 350px;
+}
+.btn_end{
+    position: relative;
+    left: 500px;
+}
+
+.batman{
+    background: black;
+    padding: 30px;
+}
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+    overflow: auto;
+    
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
 }
