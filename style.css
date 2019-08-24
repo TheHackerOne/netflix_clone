@@ -102,10 +102,10 @@ body{
     left: 164px;
 }
 .tab_content{
-    display: none;
+    display: inline;
 }
 .tab_content_2{
-    display: inline;
+    display: none;
 }
 .tab_content_3{
     display: none;

@@ -18,6 +18,7 @@ tab_2.addEventListener("click",function(){
     console.log("helllo tab_2");
     content_2.style.display="inline";
     content_3.style.display="none";
+    content_1.style.display="none";
     
 })
 
@@ -25,5 +26,6 @@ tab_3.addEventListener("click",function(){
     console.log("helllo tab_3");
     content_3.style.display="inline";
     content_2.style.display="none";
+    content_1.style.display="none";
     
 })
